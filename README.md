@@ -14,6 +14,7 @@ This project is tested under the following environment settings:
 ### Data Preparation：
 + face
 Please download the dataset ([LFW](http://vis-www.cs.umass.edu/lfw/), [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)) and place it in ```./datasets/```.
+
 The directory structure example is:
 ```
 datasets
@@ -27,6 +28,7 @@ datasets
 Prepare the pre-defined stickers and place them in ```./stickers/```.
 ### Model Preparation：
 Tool models ([FaceNet](https://github.com/timesler/facenet-pytorch), [CosFace](https://github.com/deepinsight/insightface/tree/master/recognition), [SphereFace](https://github.com/clcarwin/sphereface\_pytorch)) should be placed in ```./models/```
+
 The corresponding ```./utils/predict.py``` should be changed as needed.
 ### Other Necessary Tools:
 + Python tools for [3D face](https://github.com/YadiraF/face3d/tree/master/face3d)
@@ -35,6 +37,7 @@ The corresponding ```./utils/predict.py``` should be changed as needed.
 
 ## Quick Start
 Hyperparameter settings: ```./utils/config.py```
+
 Running this command for attacks:
 ```
 python attack_single.py
