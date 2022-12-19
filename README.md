@@ -1,5 +1,6 @@
 # Adversarial Stickers: A Stealthy Attack Method in the Physical World
-
+This repository contains the code for Adversarial Stickers introduced in the following paper
+[Adversarial Stickers: A Stealthy Attack Method in the Physical World](https://ieeexplore.ieee.org/abstract/document/9779913) (TPAMI 2022)
 ## Preparation
 
 ### Environment Settings:
@@ -42,5 +43,15 @@ Running this command for attacks:
 ```
 python attack_single.py
 ```
-
+## Citation
+If you find our methods useful, please consider citing:
+```
+@article{wei2022adversarial,
+  title={Adversarial Sticker: A Stealthy Attack Method in the Physical World},
+  author={Wei, Xingxing and Guo, Ying and Yu, Jie},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022},
+  publisher={IEEE}
+}
+```
 
